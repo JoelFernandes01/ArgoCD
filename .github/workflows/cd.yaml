@@ -16,5 +16,5 @@ jobs:
           username: joelfernandes01
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: joelfernandes01/nginx
-          tags: ${{ github.sha}}, latest
+          tags: ${{ github.sha }}, latest
   
