@@ -15,6 +15,6 @@ jobs:
         with:
           username: joelfernandes01
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: joelfernandes01/nginx
+          repository: JoelFernandes01/ArgoCD
           tags: ${{ github.sha }}, latest
   
