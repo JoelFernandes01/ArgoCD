@@ -9,4 +9,4 @@ namespace: webserver
 images:
   - name: nginx
     newName: joelfernandes01/nginx
-    newTag: v1.0.0
+    newTag: v1.1.0
